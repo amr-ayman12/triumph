@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <!-- Placeholder client logo -->
+  <rect x="2" y="2" width="196" height="76" rx="6" fill="#f4f6f8" stroke="#d5dbe1" stroke-dasharray="6 4"/>
+  <text x="100" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#8a96a3">CLIENT 1</text>
+</svg>
