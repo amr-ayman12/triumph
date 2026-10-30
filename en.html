@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Triumph Security Services | Guarding &amp; Security Solutions</title>
+  <title>TRIUMPH Security Services | Guarding &amp; Security Solutions</title>
   <meta name="description"
-    content="Triumph Security Services provides guarding and security for facilities and events, with trained teams and modern monitoring systems around the clock.">
+    content="TRIUMPH Security Services — an Egyptian joint-stock company based in Alexandria. Licensed for guarding facilities from the inside only. Ministry of Interior license No. 438.">
   <meta name="theme-color" content="#0b0c0f">
   <link rel="alternate" hreflang="ar" href="index.html">
   <link rel="alternate" hreflang="en" href="en.html">
@@ -106,6 +106,11 @@
     <symbol id="i-tt" viewBox="0 0 24 24">
       <path
         d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6 2.7 2.7 0 0 1 .8.1V9.7a5.8 5.8 0 1 0 5 5.7V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.3-1.5z" />
+    <symbol id="i-close" viewBox="0 0 24 24">
+      <path d="M18 6 6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24">
+      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
     </symbol>
   </svg>
 
@@ -113,7 +118,7 @@
   <header class="header" id="top">
     <div class="container header__inner">
       <a href="#top" class="header__logo" aria-label="Home">
-        <img src="assets/images/logo-white.png" alt="Triumph Security Services" width="168" height="60">
+        <img src="assets/images/logo-white.png" alt="TRIUMPH Security Services" width="168" height="60">
       </a>
 
       <nav class="nav" id="nav" aria-label="Main menu">
@@ -122,7 +127,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#sectors">Sectors</a></li>
-          <li><a href="#clients">Clients</a></li>
+          <li><a href="#partners">Partners</a></li>
           <li><a href="#news">News</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -149,14 +154,14 @@
   <main>
     <!-- ================= HERO ================= -->
     <section class="hero">
-      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="hero__backdrop" aria-hidden="true">
+        <img src="photos/photo (11).webp" alt="" width="1254" height="1254" fetchpriority="high" decoding="async">
+      </div>
 
       <div class="container hero__inner">
         <div class="hero__content">
           <h1 class="hero__title reveal">Your safety is <span class="text-gold">our priority</span><br>every moment</h1>
-          <p class="hero__lead reveal">Triumph Security Services delivers complete guarding and security solutions for
-            facilities, compounds and events, with trained teams, modern monitoring systems and an operations room that
-            runs around the clock.</p>
+          <p class="hero__lead reveal">TRIUMPH Security Services is an Egyptian joint-stock company based in Alexandria. Our licensed activity is guarding facilities from the inside only.</p>
           <div class="hero__cta reveal">
             <a href="#contact" class="btn btn--gold btn--lg">Get a free consultation <svg class="i"><use href="#i-arrow" /></svg></a>
             <a href="#services" class="btn btn--ghost btn--lg">Explore our services</a>
@@ -166,24 +171,9 @@
             <li><svg class="i"><use href="#i-check" /></svg> Trained and insured personnel</li>
             <li><svg class="i"><use href="#i-check" /></svg> Daily client reports</li>
           </ul>
-        </div>
-
-        <div class="hero__visual reveal">
-          <div class="frame">
-            <span class="frame__corner frame__corner--tr"></span>
-            <span class="frame__corner frame__corner--tl"></span>
-            <span class="frame__corner frame__corner--br"></span>
-            <span class="frame__corner frame__corner--bl"></span>
-            <img src="assets/images/security-hero.jpg" alt="Security team" class="frame__img">
-          </div>
-
-          <div class="float-card float-card--top">
-            <span class="float-card__ico"><svg class="i"><use href="#i-shield" /></svg></span>
-            <div><b>120+</b><small>Sites secured today</small></div>
-          </div>
-          <div class="float-card float-card--bottom">
-            <span class="float-card__ico"><svg class="i"><use href="#i-clock" /></svg></span>
-            <div><b>Operations room</b><small>Online now, 24/7</small></div>
+          <div class="hero__facts reveal">
+            <div><b>438</b><span>Ministry of Interior license</span></div>
+            <div><b>2024</b><span>Operations began on 18 August</span></div>
           </div>
         </div>
       </div>
@@ -192,17 +182,133 @@
     </section>
 
     <!-- ================= CLIENTS MARQUEE ================= -->
-    <section class="marquee" id="marquee" aria-label="Our clients">
-      <div class="marquee__label">Trusted by</div>
+    <section class="marquee" id="marquee" aria-label="Our Partners">
+      <div class="marquee__label">
+        <svg class="i" style="width:18px;height:18px;color:var(--gold);"><use href="#i-shield"/></svg>
+        <span>Trusted By</span>
+      </div>
       <div class="marquee__viewport">
         <div class="marquee__track">
-          <img src="assets/images/client-1.svg" alt="Client 1">
-          <img src="assets/images/client-2.svg" alt="Client 2">
-          <img src="assets/images/client-3.svg" alt="Client 3">
-          <img src="assets/images/client-4.svg" alt="Client 4">
-          <img src="assets/images/client-5.svg" alt="Client 5">
-          <img src="assets/images/client-6.svg" alt="Client 6">
-          <img src="assets/images/client-7.svg" alt="Client 7">
+          <!-- 1. Orascom Construction -->
+          <div class="marquee__item" title="Orascom Construction">
+            <div class="marquee__logo-pod" data-artwork="orascom">
+              <img src="Our Partners/Orascom_Construction_logo.webp" alt="Orascom Construction" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Orascom Construction</span>
+              <span class="marquee__sub">Infrastructure & Projects</span>
+            </div>
+          </div>
+
+          <!-- 2. Lasirena Group -->
+          <div class="marquee__item" title="Lasirena Group">
+            <div class="marquee__logo-pod" data-artwork="lasirena">
+              <img src="Our Partners/Lasirena_Group_DEVELOPER_logo_NOT_Majesty.jpeg" alt="Lasirena Group Real Estate" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Lasirena Group</span>
+              <span class="marquee__sub">Resorts & Real Estate</span>
+            </div>
+          </div>
+
+          <!-- 3. GAIA Ras El Hekma -->
+          <div class="marquee__item" title="GAIA Ras El Hekma">
+            <div class="marquee__logo-pod" data-artwork="gaia">
+              <img src="Our Partners/GAIA_Ras_El_Hekma_logo.png" alt="GAIA Ras El Hekma" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">GAIA Ras El Hekma</span>
+              <span class="marquee__sub">North Coast Luxury</span>
+            </div>
+          </div>
+
+          <!-- 4. Bella Vento Galala -->
+          <div class="marquee__item" title="Bella Vento Galala">
+            <div class="marquee__logo-pod" data-artwork="bella-vento">
+              <img src="Our Partners/Bella_Vento_Galala_logo.webp" alt="Bella Vento Galala" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Bella Vento Galala</span>
+              <span class="marquee__sub">Ain Sokhna Resort</span>
+            </div>
+          </div>
+
+          <!-- 5. Amazon Entertainments -->
+          <div class="marquee__item" title="Amazon Entertainments">
+            <div class="marquee__logo-pod" data-artwork="amazon">
+              <img src="Our Partners/AMAZON ENTERTAINMENTS.webp" alt="Amazon Entertainments" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Amazon Entertainments</span>
+              <span class="marquee__sub">Mega Event Productions</span>
+            </div>
+          </div>
+
+          <!-- 6. New Alamein Festival 2025 -->
+          <div class="marquee__item" title="New Alamein Festival 2025">
+            <div class="marquee__logo-pod" data-artwork="alamein-2025">
+              <img src="Our Partners/New_Alamein_Festival_2025.webp" alt="New Alamein Festival 2025" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">New Alamein Festival 2025</span>
+              <span class="marquee__sub">Middle East's Largest Event</span>
+            </div>
+          </div>
+
+          <!-- 7. New Alamein Festival 2024 -->
+          <div class="marquee__item" title="New Alamein Festival 2024">
+            <div class="marquee__logo-pod" data-artwork="alamein-2024">
+              <img src="Our Partners/New_Alamein_Festival_2024.jpg" alt="New Alamein Festival 2024" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">New Alamein Festival 2024</span>
+              <span class="marquee__sub">Alamein Arena</span>
+            </div>
+          </div>
+
+          <!-- 8. Fustat Winter Festival 2025 -->
+          <div class="marquee__item" title="Fustat Winter Festival 2025">
+            <div class="marquee__logo-pod" data-artwork="fustat">
+              <img src="Our Partners/Fustat_Winter_Festival_2025.jpg" alt="Fustat Winter Festival 2025" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Fustat Winter Festival 2025</span>
+              <span class="marquee__sub">Historic Cairo</span>
+            </div>
+          </div>
+
+          <!-- 9. Tiatro Romano Festival 2025 -->
+          <div class="marquee__item" title="Tiatro Romano Festival 2025">
+            <div class="marquee__logo-pod" data-artwork="tiatro">
+              <img src="Our Partners/Tiatro_Romano_Festival_2025_poster.jpeg" alt="Tiatro Romano Festival 2025" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Tiatro Romano Festival 2025</span>
+              <span class="marquee__sub">Marina North Coast</span>
+            </div>
+          </div>
+
+          <!-- 10. Porto Beats - Mohamed Ramadan -->
+          <div class="marquee__item" title="Mohamed Ramadan - Porto Beats 2025">
+            <div class="marquee__logo-pod" data-artwork="ramadan">
+              <img src="Our Partners/Porto_Beats_Mohamed_Ramadan_2025_poster.jpg" alt="Mohamed Ramadan Porto Beats 2025" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Mohamed Ramadan Concert</span>
+              <span class="marquee__sub">Porto Beats 2025</span>
+            </div>
+          </div>
+
+          <!-- 11. Porto Beats - Ragheb Alama -->
+          <div class="marquee__item" title="Ragheb Alama - Porto Beats 2025">
+            <div class="marquee__logo-pod" data-artwork="ragheb">
+              <img src="Our Partners/Porto_Beats_Ragheb_Alama_2025_poster.jpg" alt="Ragheb Alama Porto Beats 2025" loading="lazy">
+            </div>
+            <div class="marquee__info">
+              <span class="marquee__name">Ragheb Alama Concert</span>
+              <span class="marquee__sub">Porto Beats VIP 2025</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -211,20 +317,24 @@
     <section class="section about" id="about">
       <div class="container about__grid">
         <div class="about__media reveal">
-          <img src="assets/images/security-team.jpg" alt="About the company" loading="lazy" class="about__img">
-          <div class="about__exp">
-            <b><span class="counter" data-target="10">0</span>+</b>
-            <span>Years of<br>field experience</span>
-          </div>
+          <img src="photos/photo (3).webp" alt="Triumph team outside a facility" loading="lazy" class="about__img">
+          <div class="about__exp"><b>2024</b><span>Operations began<br>18 August</span></div>
           <div class="about__pattern" aria-hidden="true"></div>
         </div>
 
         <div class="about__content">
           <span class="eyebrow reveal">About us</span>
-          <h2 class="title reveal">A security partner you can rely on, <span class="text-gold">not just a service provider</span></h2>
-          <p class="lead reveal">We build a security setup for each client that fits the nature of their facility and its
-            risk level. We start with a site visit and a full assessment, then set a clear operating plan, carry it out
-            with carefully selected personnel and follow up with regular reports.</p>
+          <h2 class="title reveal">About TRIUMPH Security Services</h2>
+          <p class="lead reveal">TRIUMPH Security Services operates under the legal name <span lang="ar" dir="rtl">شركة تريامف للحراسة ونقل الأموال</span>. An Egyptian joint-stock company based in Alexandria, it began operations on 18 August 2024. Its licensed activity is guarding facilities from the inside only.</p>
+
+          <dl class="company-records reveal">
+            <div><dt>Legal name</dt><dd><span lang="ar" dir="rtl">شركة تريامف للحراسة ونقل الأموال</span></dd></div>
+            <div><dt>Legal form</dt><dd>Egyptian joint-stock company</dd></div>
+            <div><dt>Commercial register</dt><dd>27213 – Alexandria</dd></div>
+            <div><dt>Ministry of Interior license</dt><dd>438</dd></div>
+            <div><dt>Operations commenced</dt><dd><time datetime="2024-08-18">18 August 2024</time></dd></div>
+            <div><dt>Licensed activity</dt><dd>Guarding facilities from the inside only</dd></div>
+          </dl>
 
           <div class="values reveal">
             <div class="value">
@@ -261,59 +371,58 @@
         <div class="section-head">
           <div>
             <span class="eyebrow reveal">Our services</span>
-            <h2 class="title reveal"><span class="text-gold">Complete</span> security solutions under one roof</h2>
+            <h2 class="title reveal"><span class="text-gold">Interior</span> facility guarding</h2>
           </div>
-          <p class="section-head__desc reveal">From static guarding to smart monitoring systems, we shape the service around
-            your needs, not the other way round.</p>
+          <p class="section-head__desc reveal">Licensed activity: guarding facilities from the inside only. Ministry of Interior license No. 438.</p>
         </div>
 
         <div class="services__grid">
           <article class="service reveal">
-            <img class="service__photo" src="assets/images/security-team.jpg" alt="Guards outside an office building"
-              loading="lazy" width="900" height="1100">
+            <img class="service__photo" src="photos/photo (4).webp" alt="TRIUMPH Security Services team"
+              loading="lazy">
             <span class="service__num">01</span>
-            <h3>Facility guarding</h3>
-            <p>Trained security officers protecting office, residential and industrial buildings with full shift coverage.</p>
+            <h3>Interior facility guarding</h3>
+            <p>Guarding inside facilities within the company’s licensed activity.</p>
             <a href="#contact" class="service__link">Request this service <svg class="i"><use href="#i-arrow" /></svg></a>
           </article>
           <article class="service reveal">
-            <img class="service__photo" src="assets/images/security-monitoring.jpg" alt="Security operations and monitoring room"
-              loading="lazy" width="900" height="1100">
+            <img class="service__photo" src="photos/photo (9).webp" alt="TRIUMPH Security Services team"
+              loading="lazy">
             <span class="service__num">02</span>
-            <h3>Monitoring systems</h3>
-            <p>Design and installation of CCTV and access control systems, connected to our operations room.</p>
+            <h3>Internal access management</h3>
+            <p>Monitoring staff and visitor access inside the facility under site procedures.</p>
             <a href="#contact" class="service__link">Request this service <svg class="i"><use href="#i-arrow" /></svg></a>
           </article>
           <article class="service reveal">
-            <img class="service__photo" src="assets/images/security-concert.jpg"
-              alt="Event security and crowd management team" loading="lazy" width="900" height="1100">
+            <img class="service__photo" src="photos/photo (8).webp"
+              alt="TRIUMPH Security Services team" loading="lazy">
             <span class="service__num">03</span>
-            <h3>Event security</h3>
-            <p>Crowd and gate management for conferences, concerts and exhibitions, planned in advance.</p>
+            <h3>Internal rounds</h3>
+            <p>Checking guard posts and internal areas within the facility.</p>
             <a href="#contact" class="service__link">Request this service <svg class="i"><use href="#i-arrow" /></svg></a>
           </article>
           <article class="service reveal">
-            <img class="service__photo" src="assets/images/service-protection.jpg"
-              alt="Close protection for business executives" loading="lazy" width="900" height="1100">
+            <img class="service__photo" src="photos/photo (10).webp"
+              alt="TRIUMPH Security Services team" loading="lazy">
             <span class="service__num">04</span>
-            <h3>Close protection</h3>
-            <p>Professional escorts protecting VIPs, business leaders and visiting delegations.</p>
+            <h3>Guard supervision</h3>
+            <p>Organising guard personnel and duties inside the facility.</p>
             <a href="#contact" class="service__link">Request this service <svg class="i"><use href="#i-arrow" /></svg></a>
           </article>
           <article class="service reveal">
-            <img class="service__photo" src="assets/images/service-patrol.jpg" alt="Security patrol team next to a patrol car"
-              loading="lazy" width="900" height="1100">
+            <img class="service__photo" src="photos/photo (7).webp" alt="TRIUMPH Security Services team"
+              loading="lazy">
             <span class="service__num">05</span>
-            <h3>Mobile patrols</h3>
-            <p>Equipped patrols covering multiple sites and large areas throughout the day.</p>
+            <h3>Shift coordination</h3>
+            <p>Coordinating handovers at internal guard posts between shifts.</p>
             <a href="#contact" class="service__link">Request this service <svg class="i"><use href="#i-arrow" /></svg></a>
           </article>
           <article class="service reveal">
-            <img class="service__photo" src="assets/images/service-consulting.jpg"
-              alt="Security consultants reviewing a security plan" loading="lazy" width="900" height="1100">
+            <img class="service__photo" src="photos/photo (2).webp"
+              alt="TRIUMPH Security Services team" loading="lazy">
             <span class="service__num">06</span>
-            <h3>Security consulting</h3>
-            <p>Risk assessment, gap reviews and security policies and procedures for organisations.</p>
+            <h3>Guarding reports</h3>
+            <p>Recording observations and reporting on interior guarding operations.</p>
             <a href="#contact" class="service__link">Request this service <svg class="i"><use href="#i-arrow" /></svg></a>
           </article>
         </div>
@@ -353,14 +462,7 @@
     </section>
 
     <!-- ================= STATS ================= -->
-    <section class="stats">
-      <div class="container stats__grid">
-        <div class="stat reveal"><b><span class="counter" data-target="500">0</span>+</b><span>Trained security officers</span></div>
-        <div class="stat reveal"><b><span class="counter" data-target="120">0</span>+</b><span>Sites secured</span></div>
-        <div class="stat reveal"><b><span class="counter" data-target="35">0</span>+</b><span>Field supervisors</span></div>
-        <div class="stat reveal"><b><span class="counter" data-target="98">0</span>%</b><span>Contract renewal rate</span></div>
-      </div>
-    </section>
+    <section class="stats" aria-label="Company information"><div class="container stats__grid"><div class="stat reveal"><b>438</b><span>Ministry of Interior license</span></div><div class="stat reveal"><b>27213</b><span>Commercial register – Alexandria</span></div><div class="stat reveal"><b>2024</b><span>Operations commenced: 18 August</span></div><div class="stat reveal"><b>Alexandria</b><span>Headquarters</span></div></div></section>
 
     <!-- ================= SECTORS ================= -->
     <section class="section sectors" id="sectors">
@@ -384,46 +486,441 @@
       </div>
     </section>
 
-    <!-- ================= TESTIMONIALS ================= -->
-    <section class="section testimonials" id="clients">
+    <!-- ================= PARTNERS & MEGA EVENTS ================= -->
+    <section class="section partners" id="partners">
       <div class="container">
-        <div class="section-head">
-          <div>
-            <span class="eyebrow reveal">Testimonials</span>
-            <h2 class="title reveal">Trust we earn <span class="text-gold">every day</span></h2>
+        <div class="section-head section-head--center">
+          <span class="eyebrow reveal">Strategic Partnerships & Leadership</span>
+          <h2 class="title reveal">Trusted Partnerships Creating a <span class="text-gold">Security Benchmark</span></h2>
+          <p class="section-head__desc reveal" style="max-width: 680px; text-align: center; margin-top: 14px;">
+            Proud to safeguard top-tier real estate developers and infrastructure giants, and entrusted with securing Egypt's largest national festivals and mega concerts.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="partners__tabs reveal" role="tablist" aria-label="Partner and Event Categories">
+          <button class="partner-tab is-active" data-filter="all" role="tab" aria-selected="true" type="button">
+            <span>All Partners & Events</span>
+            <span class="partner-tab__count">11</span>
+          </button>
+          <button class="partner-tab" data-filter="corporate" role="tab" aria-selected="false" type="button">
+            <span>Developers & Enterprises</span>
+            <span class="partner-tab__count">5</span>
+          </button>
+          <button class="partner-tab" data-filter="events" role="tab" aria-selected="false" type="button">
+            <span>Mega Festivals & Concerts</span>
+            <span class="partner-tab__count">6</span>
+          </button>
+        </div>
+
+        <!-- Partners Grid -->
+        <div class="partners__grid">
+
+          <!-- 1. Orascom Construction -->
+          <article class="partner-card reveal" data-category="corporate"
+            data-title="Orascom Construction"
+            data-sub="Global EPC & National Infrastructure Leader"
+            data-badge="Infrastructure & Construction"
+            data-desc="Strategic security partnership securing major infrastructure projects, vital work zones, and heavy machinery with 24/7 tactical readiness."
+            data-scope="Perimeter security, biometric access control, surveillance operations, and certified guards for hazardous construction zones."
+            data-img="Our Partners/Orascom_Construction_logo.webp">
+            <div class="partner-card__media">
+              <span class="partner-card__badge partner-card__badge--featured"><svg class="i" style="width:14px;height:14px;"><use href="#i-shield"/></svg> Strategic Partner</span>
+              <div class="partner-card__logo-pod">
+                <img src="Our Partners/Orascom_Construction_logo.webp" alt="Orascom Construction" loading="lazy">
+              </div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Orascom Construction</h3>
+              <span class="partner-card__subtitle">National Mega Infrastructure</span>
+              <p class="partner-card__desc">Securing major national construction developments and equipment depots with advanced round-the-clock monitoring.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">National Projects</span>
+                <span class="partner-tag">24/7 Guarding</span>
+                <span class="partner-tag">Perimeter Control</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Construction</span>
+                <button class="partner-card__btn" type="button" aria-label="View Partnership Details">
+                  <span>Partnership Details</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Lasirena Group -->
+          <article class="partner-card reveal" data-category="corporate"
+            data-title="Lasirena Group Real Estate"
+            data-sub="Leading Coastal & Residential Developer in Egypt"
+            data-badge="Real Estate & Tourism"
+            data-desc="Complete security coverage for premier resort communities across Ain Sokhna, Ras Sudr, and the North Coast ensuring safety and tranquility."
+            data-scope="Automated entry gates, foot and mobile patrols across beaches, central CCTV control room, and vehicular screening."
+            data-img="Our Partners/Lasirena_Group_DEVELOPER_logo_NOT_Majesty.jpeg">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-home"/></svg> Coastal Resorts</span>
+              <div class="partner-card__logo-pod">
+                <img src="Our Partners/Lasirena_Group_DEVELOPER_logo_NOT_Majesty.jpeg" alt="Lasirena Group" loading="lazy">
+              </div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Lasirena Group</h3>
+              <span class="partner-card__subtitle">Real Estate Development</span>
+              <p class="partner-card__desc">Comprehensive security management for major holiday villages and residential compounds with dedicated patrols.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Resorts</span>
+                <span class="partner-tag">Mobile Patrols</span>
+                <span class="partner-tag">Smart Gates</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Sokhna & Coast</span>
+                <button class="partner-card__btn" type="button" aria-label="View Partnership Details">
+                  <span>Partnership Details</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. GAIA Ras El Hekma -->
+          <article class="partner-card reveal" data-category="corporate"
+            data-title="GAIA Ras El Hekma"
+            data-sub="Iconic Luxury Coastal Destination by Al Ahly Sabbour"
+            data-badge="Luxury Coastal Living"
+            data-desc="Guarding and securing one of the Mediterranean's finest luxury destinations with premier hospitality standards and total privacy."
+            data-scope="Lagoon & beachfront security, hotel facility surveillance, rapid-response tactical teams, and executive supervision."
+            data-img="Our Partners/GAIA_Ras_El_Hekma_logo.png">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-shield"/></svg> Ras El Hekma</span>
+              <div class="partner-card__logo-pod">
+                <img src="Our Partners/GAIA_Ras_El_Hekma_logo.png" alt="GAIA Ras El Hekma" loading="lazy">
+              </div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">GAIA Ras El Hekma</h3>
+              <span class="partner-card__subtitle">Mediterranean Resort Community</span>
+              <p class="partner-card__desc">Safeguarding elite seaside residences with five-star hospitality security and privacy protocols for residents and guests.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Ras El Hekma</span>
+                <span class="partner-tag">VIP Privacy</span>
+                <span class="partner-tag">Beach Security</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">North Coast</span>
+                <button class="partner-card__btn" type="button" aria-label="View Partnership Details">
+                  <span>Partnership Details</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Bella Vento Galala -->
+          <article class="partner-card reveal" data-category="corporate"
+            data-title="Bella Vento Galala Resort"
+            data-sub="Integrated Coastal Resort in Galala Mountain City"
+            data-badge="Ain Sokhna Resorts"
+            data-desc="Securing luxury residential residences, mountain trails, and beachfront entertainment facilities along the Gulf of Suez."
+            data-scope="Checkpoint controls, panoramic perimeter monitoring, mountain-side patrol units, and central emergency response."
+            data-img="Our Partners/Bella_Vento_Galala_logo.webp">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-building"/></svg> Galala City</span>
+              <div class="partner-card__logo-pod">
+                <img src="Our Partners/Bella_Vento_Galala_logo.webp" alt="Bella Vento Galala" loading="lazy">
+              </div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Bella Vento Galala</h3>
+              <span class="partner-card__subtitle">Mountain & Seaside Resort</span>
+              <p class="partner-card__desc">Integrated security operations protecting residential, hotel, and leisure areas in Galala City with HD surveillance.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Galala City</span>
+                <span class="partner-tag">Smart Surveillance</span>
+                <span class="partner-tag">Facility Protection</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Ain Sokhna</span>
+                <button class="partner-card__btn" type="button" aria-label="View Partnership Details">
+                  <span>Partnership Details</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Amazon Entertainments -->
+          <article class="partner-card reveal" data-category="corporate"
+            data-title="Amazon Entertainments"
+            data-sub="Major Concert Organizers & Production Powerhouse"
+            data-badge="Entertainment & Production"
+            data-desc="Exclusive security partner managing crowd flows, stage integrity, and technical equipment for major regional concerts and live productions."
+            data-scope="Stage & backstage perimeters, artist escorts, crowd surge mitigation, access-controlled accreditation zones."
+            data-img="Our Partners/AMAZON ENTERTAINMENTS.webp">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-event"/></svg> Production & Live</span>
+              <div class="partner-card__logo-pod">
+                <img src="Our Partners/AMAZON ENTERTAINMENTS.webp" alt="Amazon Entertainments" loading="lazy">
+              </div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Amazon Entertainments</h3>
+              <span class="partner-card__subtitle">Concert & Event Organizers</span>
+              <p class="partner-card__desc">Trusted partner ensuring the complete physical and technical security of high-profile productions and concerts.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Live Productions</span>
+                <span class="partner-tag">Stage Security</span>
+                <span class="partner-tag">Crowd Control</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Concerts</span>
+                <button class="partner-card__btn" type="button" aria-label="View Partnership Details">
+                  <span>Partnership Details</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. New Alamein Festival 2025 -->
+          <article class="partner-card reveal" data-category="events"
+            data-title="New Alamein Festival 2025"
+            data-sub="The Largest Tourism & Entertainment Festival in the Middle East"
+            data-badge="International Festival 2025"
+            data-desc="Heading security operations for the 2025 edition; coordinating safe transit and protection for hundreds of thousands of daily festivalgoers."
+            data-scope="Arena concert security, multi-gate digital screening, mobile command operations, and high-level dignitary protocol protection."
+            data-img="Our Partners/New_Alamein_Festival_2025.webp">
+            <div class="partner-card__media">
+              <span class="partner-card__badge partner-card__badge--featured"><svg class="i" style="width:14px;height:14px;"><use href="#i-star"/></svg> Flagship Event 2025</span>
+              <span class="partner-card__sub-badge">New Alamein City</span>
+              <img src="Our Partners/New_Alamein_Festival_2025.webp" alt="New Alamein Festival 2025" loading="lazy">
+              <div class="partner-card__media-overlay"></div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">New Alamein Festival 2025</h3>
+              <span class="partner-card__subtitle">Summer 2025 Edition</span>
+              <p class="partner-card__desc">Comprehensive security stewardship over festival grounds, major concert arenas, and international delegate hospitality.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Mega Event</span>
+                <span class="partner-tag">+100k Visitors</span>
+                <span class="partner-tag">Command Center</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Summer 2025</span>
+                <button class="partner-card__btn" type="button" aria-label="View Event Details">
+                  <span>Poster & Scope</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. New Alamein Festival 2024 -->
+          <article class="partner-card reveal" data-category="events"
+            data-title="New Alamein Festival 2024"
+            data-sub="Impeccable Safety Track Record Across Multiple Summer Weeks"
+            data-badge="International Festival 2024"
+            data-desc="Flawless security deployment over Alamein Arena concerts, international sports tournaments, and public cultural performances."
+            data-scope="Arena access logistics, traffic routing, VIP backstage escorts, broadcast media safety, and emergency medical corridors."
+            data-img="Our Partners/New_Alamein_Festival_2024.jpg">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-shield"/></svg> 2024 Edition</span>
+              <span class="partner-card__sub-badge">Alamein Arena</span>
+              <img src="Our Partners/New_Alamein_Festival_2024.jpg" alt="New Alamein Festival 2024" loading="lazy">
+              <div class="partner-card__media-overlay"></div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">New Alamein Festival 2024</h3>
+              <span class="partner-card__subtitle">Summer 2024 Edition</span>
+              <p class="partner-card__desc">Delivered zero-incident security management for dozens of consecutive festival weekends at Alamein Arena.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">100% Safety</span>
+                <span class="partner-tag">Arena Security</span>
+                <span class="partner-tag">Sports & Concerts</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Summer 2024</span>
+                <button class="partner-card__btn" type="button" aria-label="View Event Details">
+                  <span>Poster & Scope</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. Fustat Winter Festival 2025 -->
+          <article class="partner-card reveal" data-category="events"
+            data-title="Fustat Winter Festival 2025"
+            data-sub="Cairo's Largest Cultural & Family Winter Gathering"
+            data-badge="Winter Festival 2025"
+            data-desc="Safeguarding the historic Fustat Gardens and cultural exhibition zones, providing a secure family-friendly experience for thousands."
+            data-scope="Open park perimeters, family safety screening checkpoints, continuous foot patrols, and rapid coordination with local services."
+            data-img="Our Partners/Fustat_Winter_Festival_2025.jpg">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-event"/></svg> Winter 2025</span>
+              <span class="partner-card__sub-badge">Fustat Gardens - Cairo</span>
+              <img src="Our Partners/Fustat_Winter_Festival_2025.jpg" alt="Fustat Winter Festival 2025" loading="lazy">
+              <div class="partner-card__media-overlay"></div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Fustat Winter Festival 2025</h3>
+              <span class="partner-card__subtitle">Historic Cairo Celebrations</span>
+              <p class="partner-card__desc">Delivering community-focused security for open-air heritage and cultural entertainment activities in Cairo.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Historic Cairo</span>
+                <span class="partner-tag">Family Safety</span>
+                <span class="partner-tag">Heritage Events</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Cairo</span>
+                <button class="partner-card__btn" type="button" aria-label="View Event Details">
+                  <span>Poster & Scope</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9. Tiatro Romano Festival 2025 -->
+          <article class="partner-card reveal" data-category="events"
+            data-title="Tiatro Romano Festival 2025"
+            data-sub="Iconic Live Amphitheater Concerts in Marina North Coast"
+            data-badge="Live Summer Amphitheater"
+            data-desc="Exclusive security command over Marina's Roman Amphitheater, controlling grandstand seating, backstage entries, and stage perimeters."
+            data-scope="Amphitheater crowd seating protocols, encrypted tactical communications, artist green room protection, and egress control."
+            data-img="Our Partners/Tiatro_Romano_Festival_2025_poster.jpeg">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-event"/></svg> Marina Coast</span>
+              <span class="partner-card__sub-badge">Roman Theater</span>
+              <img src="Our Partners/Tiatro_Romano_Festival_2025_poster.jpeg" alt="Tiatro Romano Festival 2025" loading="lazy">
+              <div class="partner-card__media-overlay"></div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Tiatro Romano Festival 2025</h3>
+              <span class="partner-card__subtitle">Marina Amphitheater Concerts</span>
+              <p class="partner-card__desc">Flawless tactical handling of theatrical and live concert events on the historic Mediterranean amphitheater stage.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">Marina El Alamein</span>
+                <span class="partner-tag">Backstage Safety</span>
+                <span class="partner-tag">Live Theater</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Summer 2025</span>
+                <button class="partner-card__btn" type="button" aria-label="View Event Details">
+                  <span>Poster & Scope</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10. Porto Beats - Mohamed Ramadan -->
+          <article class="partner-card reveal" data-category="events"
+            data-title="Mohamed Ramadan Live - Porto Beats 2025"
+            data-sub="Summer 2025's Highest-Attendance Headline Concert"
+            data-badge="Major Live Concert"
+            data-desc="Precision security execution for mega-star Mohamed Ramadan's headline show, managing record-breaking audience density with zero incidents."
+            data-scope="Main stage defense lines, electronic ingress turnstiles, secure emergency transit, close VIP personal protection."
+            data-img="Our Partners/Porto_Beats_Mohamed_Ramadan_2025_poster.jpg">
+            <div class="partner-card__media">
+              <span class="partner-card__badge partner-card__badge--featured"><svg class="i" style="width:14px;height:14px;"><use href="#i-star"/></svg> Mega Concert 2025</span>
+              <span class="partner-card__sub-badge">Porto Beats</span>
+              <img src="Our Partners/Porto_Beats_Mohamed_Ramadan_2025_poster.jpg" alt="Mohamed Ramadan Concert Porto Beats" loading="lazy">
+              <div class="partner-card__media-overlay"></div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Mohamed Ramadan Concert</h3>
+              <span class="partner-card__subtitle">Porto Beats Headline Night 2025</span>
+              <p class="partner-card__desc">High-density crowd management and artist personal protection at the largest summer music event of the season.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">VIP Protection</span>
+                <span class="partner-tag">Crowd Density</span>
+                <span class="partner-tag">Main Stage</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Porto Beats 2025</span>
+                <button class="partner-card__btn" type="button" aria-label="View Concert Details">
+                  <span>Poster & Scope</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 11. Porto Beats - Ragheb Alama -->
+          <article class="partner-card reveal" data-category="events"
+            data-title="Ragheb Alama Live - Porto Beats 2025"
+            data-sub="Ultra-VIP Summer Music Gala on the Mediterranean Coast"
+            data-badge="VIP Star Concert"
+            data-desc="Elite security coverage for Lebanese superstar Ragheb Alama's gala evening, safeguarding high-profile guests and private lounge sectors."
+            data-scope="Dedicated VIP red-carpet access, backstage screening, hotel security synchronization, close protection detail."
+            data-img="Our Partners/Porto_Beats_Ragheb_Alama_2025_poster.jpg">
+            <div class="partner-card__media">
+              <span class="partner-card__badge"><svg class="i" style="width:14px;height:14px;"><use href="#i-shield"/></svg> VIP Night</span>
+              <span class="partner-card__sub-badge">Porto Beats</span>
+              <img src="Our Partners/Porto_Beats_Ragheb_Alama_2025_poster.jpg" alt="Ragheb Alama Concert Porto Beats" loading="lazy">
+              <div class="partner-card__media-overlay"></div>
+            </div>
+            <div class="partner-card__body">
+              <h3 class="partner-card__title">Ragheb Alama Concert</h3>
+              <span class="partner-card__subtitle">Porto Beats VIP Gala 2025</span>
+              <p class="partner-card__desc">Luxury-tier security operations tailored for VIP hospitality lounges and celebrity artist safe transit.</p>
+              <div class="partner-card__tags">
+                <span class="partner-tag">VIP Gala</span>
+                <span class="partner-tag">Celebrity Protection</span>
+                <span class="partner-tag">Porto Marina</span>
+              </div>
+              <div class="partner-card__footer">
+                <span class="text-gold" style="font-size:12.5px; font-weight:600;">Porto Beats 2025</span>
+                <button class="partner-card__btn" type="button" aria-label="View Concert Details">
+                  <span>Poster & Scope</span>
+                  <svg class="i"><use href="#i-arrow"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Trust / Impact Metrics Strip -->
+        <div class="partners__metrics reveal">
+          <div class="partner-metric">
+            <div class="partner-metric__ico">
+              <svg class="i"><use href="#i-event"/></svg>
+            </div>
+            <div>
+              <b class="partner-metric__val">+100</b>
+              <span class="partner-metric__lbl">Major events & festivals secured</span>
+            </div>
           </div>
-          <div class="slider-nav reveal">
-            <button class="slider-btn" data-dir="prev" aria-label="Previous"><svg class="i"><use href="#i-arrow" /></svg></button>
-            <button class="slider-btn" data-dir="next" aria-label="Next"><svg class="i"><use href="#i-arrow" /></svg></button>
+          <div class="partner-metric">
+            <div class="partner-metric__ico">
+              <svg class="i"><use href="#i-shield"/></svg>
+            </div>
+            <div>
+              <b class="partner-metric__val">+50,000</b>
+              <span class="partner-metric__lbl">Peak single-event attendees managed</span>
+            </div>
+          </div>
+          <div class="partner-metric">
+            <div class="partner-metric__ico">
+              <svg class="i"><use href="#i-camera"/></svg>
+            </div>
+            <div>
+              <b class="partner-metric__val">24/7</b>
+              <span class="partner-metric__lbl">Command center & tactical operations</span>
+            </div>
+          </div>
+          <div class="partner-metric">
+            <div class="partner-metric__ico">
+              <svg class="i"><use href="#i-check"/></svg>
+            </div>
+            <div>
+              <b class="partner-metric__val">100%</b>
+              <span class="partner-metric__lbl">Zero-incident safety record</span>
+            </div>
           </div>
         </div>
 
-        <div class="tcards" tabindex="0">
-          <figure class="tcard">
-            <blockquote>The first client's review goes here: their experience with the company and the commitment and fast response they noticed.</blockquote>
-            <figcaption><span class="avatar">A</span>
-              <div><b>Client name</b><small>Job title, Company</small></div>
-            </figcaption>
-          </figure>
-          <figure class="tcard">
-            <blockquote>The second client's review goes here, ideally naming a clear result the service achieved for their facility.</blockquote>
-            <figcaption><span class="avatar">M</span>
-              <div><b>Client name</b><small>Job title, Company</small></div>
-            </figcaption>
-          </figure>
-          <figure class="tcard">
-            <blockquote>The third client's review goes here, mentioning the project or event that was secured.</blockquote>
-            <figcaption><span class="avatar">S</span>
-              <div><b>Client name</b><small>Job title, Company</small></div>
-            </figcaption>
-          </figure>
-          <figure class="tcard">
-            <blockquote>The fourth client's review goes here, about working with the supervisors and the quality of the regular reports.</blockquote>
-            <figcaption><span class="avatar">H</span>
-              <div><b>Client name</b><small>Job title, Company</small></div>
-            </figcaption>
-          </figure>
-        </div>
       </div>
     </section>
 
@@ -440,8 +937,8 @@
 
         <div class="news__grid">
           <article class="post post--featured reveal">
-            <a href="#" class="post__img"><img src="assets/images/security-event.jpg"
-                alt="Security team at an event in Cairo" loading="lazy"></a>
+            <a href="#" class="post__img"><img src="photos/photo (5).webp"
+                alt="Triumph team gathered outside a facility" loading="lazy"></a>
             <div class="post__body">
               <div class="post__meta"><span class="tag">New contracts</span><time datetime="2026-10-15">15 October 2026</time></div>
               <h3><a href="#">The main headline goes here and can run to two lines</a></h3>
@@ -449,15 +946,15 @@
             </div>
           </article>
           <article class="post reveal">
-            <a href="#" class="post__img"><img src="assets/images/security-monitoring.jpg"
-                alt="Monitoring cameras from the operations room" loading="lazy"></a>
+            <a href="#" class="post__img"><img src="photos/photo (6).webp"
+                alt="Triumph team uniform and company emblem" loading="lazy"></a>
             <div class="post__body">
               <div class="post__meta"><span class="tag">Contract renewal</span><time datetime="2026-09-01">1 September 2026</time></div>
               <h3><a href="#">The second headline goes here</a></h3>
             </div>
           </article>
           <article class="post reveal">
-            <a href="#" class="post__img"><img src="assets/images/security-k9.jpg" alt="Guard dog equipped for security work"
+            <a href="#" class="post__img"><img src="photos/photo (8).webp" alt="Triumph team at an event entrance"
                 loading="lazy"></a>
             <div class="post__body">
               <div class="post__meta"><span class="tag">Events</span><time datetime="2026-08-20">20 August 2026</time></div>
@@ -483,7 +980,7 @@
               <div><small>Email</small><a href="mailto:info@example.com">info@example.com</a></div>
             </li>
             <li><span class="ci"><svg class="i"><use href="#i-pin" /></svg></span>
-              <div><small>Address</small><span>Head office address, City, Egypt</span></div>
+              <div><small>Address</small><span>30 Gawad Hosny Street, Al Ibrahimiyyah, Bab Sharq, Alexandria, Egypt</span></div>
             </li>
             <li><span class="ci"><svg class="i"><use href="#i-clock" /></svg></span>
               <div><small>Working hours</small><span>Saturday to Thursday, 9 AM to 5 PM</span></div>
@@ -505,12 +1002,12 @@
             <label class="field"><span>Service needed</span>
               <select name="service" required>
                 <option value="" selected disabled>Choose a service</option>
-                <option>Facility guarding</option>
-                <option>Monitoring systems</option>
-                <option>Event security</option>
-                <option>Close protection</option>
-                <option>Mobile patrols</option>
-                <option>Security consulting</option>
+                <option>Interior facility guarding</option>
+                <option>Internal access management</option>
+                <option>Internal rounds</option>
+                <option>Guard supervision</option>
+                <option>Shift coordination</option>
+                <option>Guarding reports</option>
               </select>
             </label>
           </div>
@@ -527,8 +1024,9 @@
   <footer class="footer">
     <div class="container footer__top">
       <div class="footer__brand">
-        <img src="assets/images/logo-white.png" alt="Triumph Security Services" width="200" height="72">
-        <p>Triumph Security Services: complete guarding and security solutions, held to professional standards, protecting people and facilities.</p>
+        <img src="assets/images/logo-white.png" alt="TRIUMPH Security Services" width="200" height="72">
+        <p>TRIUMPH Security Services — an Egyptian joint-stock company. Legal name: <span lang="ar" dir="rtl">شركة تريامف للحراسة ونقل الأموال</span>. Licensed activity: guarding facilities from the inside only.</p>
+        <p class="footer__registration">Commercial register 27213 – Alexandria · Ministry of Interior license 438</p>
         <ul class="social">
           <li><a href="#" aria-label="Facebook"><svg class="i"><use href="#i-fb" /></svg></a></li>
           <li><a href="#" aria-label="Instagram"><svg class="i"><use href="#i-ig" /></svg></a></li>
@@ -541,7 +1039,6 @@
         <h4>Company</h4>
         <ul>
           <li><a href="#about">About us</a></li>
-          <li><a href="#clients">Clients</a></li>
           <li><a href="#news">News</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -550,16 +1047,18 @@
       <div class="footer__col">
         <h4>Services</h4>
         <ul>
-          <li><a href="#services">Facility guarding</a></li>
-          <li><a href="#services">Monitoring systems</a></li>
-          <li><a href="#services">Event security</a></li>
-          <li><a href="#services">Close protection</a></li>
-          <li><a href="#services">Security consulting</a></li>
+          <li><a href="#services">Interior facility guarding</a></li>
+          <li><a href="#services">Internal access management</a></li>
+          <li><a href="#services">Internal rounds</a></li>
+          <li><a href="#services">Guard supervision</a></li>
+          <li><a href="#services">Shift coordination</a></li>
+          <li><a href="#services">Guarding reports</a></li>
         </ul>
       </div>
       <div class="footer__col">
         <h4>Get in touch</h4>
         <ul class="footer__contact">
+          <li><svg class="i"><use href="#i-pin" /></svg><address>30 Gawad Hosny Street, Al Ibrahimiyyah, Bab Sharq, Alexandria, Egypt</address></li>
           <li><svg class="i"><use href="#i-phone" /></svg><a href="tel:+200000000000">+20 000 000 0000</a></li>
           <li><svg class="i"><use href="#i-mail" /></svg><a href="mailto:info@example.com">info@example.com</a></li>
           <li><svg class="i"><use href="#i-clock" /></svg><span>Sat – Thu, 9 AM – 5 PM</span></li>
@@ -568,7 +1067,7 @@
     </div>
     <div class="footer__bottom">
       <div class="container footer__bottom-inner">
-        <span>© <span id="year">2026</span> Triumph Security Services. All rights reserved.</span>
+        <span>© <span id="year">2026</span> TRIUMPH Security Services. All rights reserved.</span>
         <span class="footer__legal"><a href="#">Privacy policy</a><a href="#">Terms &amp; conditions</a></span>
       </div>
     </div>
@@ -577,6 +1076,36 @@
   <a href="https://wa.me/201022097233" class="fab-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg
       class="i"><use href="#i-wa" /></svg></a>
   <a href="#top" class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6" /></svg></a>
+
+  <!-- Partner Details / Lightbox Modal -->
+  <div class="partner-modal" id="partnerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="partnerModalTitle">
+    <div class="partner-modal__dialog">
+      <button class="partner-modal__close" type="button" aria-label="Close dialog">
+        <svg class="i"><use href="#i-close"/></svg>
+      </button>
+      <div class="partner-modal__content">
+        <div class="partner-modal__img-wrap">
+          <img src="" alt="" class="partner-modal__img" loading="lazy">
+        </div>
+        <div class="partner-modal__info">
+          <span class="partner-modal__badge"></span>
+          <h3 class="partner-modal__title" id="partnerModalTitle"></h3>
+          <span class="partner-modal__sub"></span>
+          <p class="partner-modal__body"></p>
+          <div class="partner-modal__scope-box">
+            <div class="partner-modal__scope-title">
+              <svg class="i" style="width:16px;height:16px;"><use href="#i-shield"/></svg>
+              <span>Security Scope &amp; Responsibilities:</span>
+            </div>
+            <p class="partner-modal__scope-text" style="font-size:13.5px; color:var(--text); line-height:1.7;"></p>
+          </div>
+          <div class="partner-modal__cta">
+            <a href="#contact" class="btn btn--gold btn--sm partner-modal__cta-btn">Request Security for Your Event or Site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
